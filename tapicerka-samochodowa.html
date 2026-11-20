@@ -45,16 +45,14 @@
 
                 <div class="nav__links">
 
-                    <a href="../uslugisprzatania-myciacisnieniowego.html" class="nav__links-link">
-                        <img src="../dist/img/sprzatanie-ikona.png" alt=""> Sprzątanie</a>
-
                     <a href="../index.html" class="nav__links-link">
-                        <img src="../dist/img/header-sofa-icon.png" alt=""> Meblowa</a>
+                        <img src="../dist/img/header-sofa-icon.png" alt=""> Tapicerka meblowa</a>
 
+                    <a href="../index.html#wykladziny" class="nav__links-link">
+                        <img src="../dist/img/carpet-icon.png" alt="" class="nav__icon--light"> Dywany i wykładziny</a>
 
-
-
-
+                    <a href="../uslugisprzatania-myciacisnieniowego.html" class="nav__links-link">
+                        <img src="../dist/img/sprzatanie-ikona.png" alt=""> Usługi dodatkowe</a>
 
                     <a href="../tapicerka-samochodowa.html#kontakt" class="nav__links-link foreign-link"><img
                             src="../dist/img/contact-icon.png" alt="">
@@ -72,9 +70,9 @@
 
                 <div class="nav__links-desktop">
 
-                    <a href="../uslugisprzatania-myciacisnieniowego.html" class="nav__links-desktop-link">Uslugi
-                        sprzątania</a>
-                    <a href="index.html" class="nav__links-desktop-link">Tapicerka meblowa</a>
+                    <a href="../index.html" class="nav__links-desktop-link">Tapicerka meblowa</a>
+                    <a href="../index.html#wykladziny" class="nav__links-desktop-link">Dywany i wykładziny</a>
+                    <a href="../uslugisprzatania-myciacisnieniowego.html" class="nav__links-desktop-link">Usługi dodatkowe</a>
                     <a href="../tapicerka-samochodowa.html#cennik" class="nav__links-desktop-link">Cennik</a>
                     <a href="../tapicerka-samochodowa.html#kontakt" class="nav__links-desktop-link">Kontakt</a>
                     <a href="tel:+48883460674" class="nav__links-desktop-link"><img src="../dist/img/phone-icon.png"
@@ -358,201 +356,238 @@
             </div>
         </section>
 
-        <section class="price" id="cennik">
-            <h2 class="section-heading" id="price-heading">Cennik</h2>
+        <section class="packages" id="cennik">
+            <h2 class="section-heading">Pakiety czyszczenia wnętrza</h2>
+            <p class="packages__intro">Wybierz zakres pielęgnacji dopasowany do stanu samochodu. Każdy kolejny pakiet
+                rozszerza poprzedni, a dojazd na terenie Wrocławia jest gratis.</p>
 
-            <div class="main-container">
+            <div class="packages__list">
 
-                <!-- Przełączniki (Zakładki) -->
-                <div class="price__container-type">
-                    <button aria-label="Tapicerka meblowa" class="price__container-type-choice upholstery-price-btn "
-                        data-target="meble-cennik">
-                        <span class="desktop">Tapicerka meblowa</span>
-                        <span class="tablet">Meblowa</span>
-                        <img src="../dist/img/Couch.png" alt="" class="icon">
-                    </button>
+                <article class="packages__card packages__card--brazowy">
+                    <header class="packages__head">
+                        <div>
+                            <h3 class="packages__name">Pakiet brązowy</h3>
+                            <p class="packages__tagline">Odkurzanie i czyszczenie plastików</p>
+                        </div>
+                        <p class="packages__price">250 zł</p>
+                    </header>
+                    <div class="packages__body">
+                        <p class="packages__lead">Podstawowa pielęgnacja wnętrza</p>
+                        <p class="packages__text">Idealny dla osób, które chcą odświeżyć wnętrze samochodu i przywrócić
+                            mu schludny wygląd bez prania tapicerki.</p>
+                        <p class="packages__text">Pakiet obejmuje dokładne odkurzanie wnętrza oraz czyszczenie elementów
+                            plastikowych. To dobry wybór do regularnej pielęgnacji samochodu, który nie wymaga
+                            gruntownego czyszczenia.</p>
+                        <h4 class="packages__label">Zakres usługi</h4>
+                        <ul>
+                            <li>Dokładne odkurzanie wnętrza samochodu.</li>
+                            <li>Odkurzanie foteli, tylnej kanapy oraz podłogi.</li>
+                            <li>Odkurzanie bagażnika.</li>
+                            <li>Czyszczenie deski rozdzielczej.</li>
+                            <li>Czyszczenie konsoli środkowej.</li>
+                            <li>Czyszczenie plastikowych elementów drzwi.</li>
+                            <li>Czyszczenie plastików wewnętrznych.</li>
+                            <li>Usunięcie kurzu i codziennych zabrudzeń.</li>
+                            <li>Przywrócenie estetycznego, matowego wyglądu plastików.</li>
+                        </ul>
+                        <p class="packages__note">Pakiet nie obejmuje prania tapicerki materiałowej ani czyszczenia i
+                            pielęgnacji tapicerki skórzanej.</p>
+                    </div>
+                </article>
 
-                    <button aria-label="Tapicerka samochodowa"
-                        class="price__container-type-choice upholstery-price-btn active" data-target="auto-cennik">
-                        <span class="desktop">Tapicerka samochodowa</span>
-                        <span class="tablet">Samochodowa</span>
-                        <img src="../dist/img/car-icon.png" alt="" class="icon car-icon">
-                    </button>
+                <article class="packages__card packages__card--srebrny">
+                    <header class="packages__head">
+                        <div>
+                            <h3 class="packages__name">Pakiet srebrny</h3>
+                            <p class="packages__tagline">Pakiet brązowy plus pranie foteli i kanapy</p>
+                        </div>
+                        <p class="packages__price">400 zł</p>
+                    </header>
+                    <div class="packages__body">
+                        <p class="packages__lead">Pranie foteli i tylnej kanapy</p>
+                        <p class="packages__includes">Zawiera cały pakiet brązowy: dokładne odkurzanie wnętrza,
+                            bagażnika oraz czyszczenie plastików.</p>
+                        <p class="packages__text">Skuteczne odświeżenie tapicerki siedzeń i usunięcie zabrudzeń, które
+                            gromadzą się podczas codziennego użytkowania samochodu. Przeznaczony dla osób, których
+                            wnętrze jest zadbane, ale tapicerka foteli i tylnej kanapy wymaga dokładnego odświeżenia.</p>
+                        <h4 class="packages__label">Dodatkowo w tym pakiecie</h4>
+                        <ul>
+                            <li>Dokładne odkurzenie foteli i tylnej kanapy.</li>
+                            <li>Przygotowanie tapicerki do prania.</li>
+                            <li>Czyszczenie wstępne zabrudzonych powierzchni.</li>
+                            <li>Pranie ekstrakcyjne dwóch przednich foteli.</li>
+                            <li>Pranie ekstrakcyjne tylnej kanapy.</li>
+                            <li>Usuwanie typowych zabrudzeń eksploatacyjnych.</li>
+                            <li>Płukanie tapicerki i odciąganie pozostałości środków czyszczących.</li>
+                            <li>Końcowa kontrola czystości.</li>
+                        </ul>
+                        <p class="packages__text"><b>Pakiet obejmuje:</b> 2 przednie fotele i 1 tylną kanapę.</p>
+                        <p class="packages__note">Pakiet nie obejmuje prania podsufitki, podłogi, boczków drzwi ani
+                            bagażnika. W przypadku tapicerki skórzanej stosujemy odpowiednią metodę czyszczenia i
+                            pielęgnacji skóry.</p>
+                    </div>
+                </article>
 
-                    <button aria-label="Usługi sprzątania" class="price__container-type-choice upholstery-price-btn"
-                        data-target="sprzatanie-cennik">
-                        <span class="desktop">Usługi sprzątania</span>
-                        <span class="tablet">Sprzątanie</span>
-                        <img src="../dist/img/sprzatanie-ikona.png" alt="" class="icon">
-                    </button>
+                <article class="packages__card packages__card--zloty">
+                    <header class="packages__head">
+                        <div>
+                            <h3 class="packages__name">Pakiet złoty</h3>
+                            <p class="packages__tagline">Plus pranie wszystkich materiałów tekstylnych</p>
+                        </div>
+                        <p class="packages__price">600 zł</p>
+                    </header>
+                    <div class="packages__body">
+                        <p class="packages__lead">Kompleksowe pranie wnętrza</p>
+                        <p class="packages__includes">Zawiera pakiet srebrny, a dodatkowo pranie wszystkich dostępnych
+                            materiałów tekstylnych: podsufitki, podłogi, boczków, słupków, bagażnika i pasów.</p>
+                        <p class="packages__text">Gruntowne czyszczenie całego tekstylnego wnętrza. Czyścimy nie tylko
+                            siedzenia, ale też pozostałe elementy, w których gromadzi się kurz, brud i zabrudzenia
+                            eksploatacyjne.</p>
+                        <h4 class="packages__label">Zakres usługi</h4>
+                        <ul>
+                            <li>Dokładne odkurzanie całego wnętrza i bagażnika.</li>
+                            <li>Czyszczenie i pranie dwóch przednich foteli.</li>
+                            <li>Pranie tylnej kanapy.</li>
+                            <li>Pranie podsufitki odpowiednią, bezpieczną metodą.</li>
+                            <li>Pranie materiałowych boczków drzwi.</li>
+                            <li>Pranie materiałowych elementów podłogi i wykładziny podłogowej.</li>
+                            <li>Pranie dywaników materiałowych.</li>
+                            <li>Pranie tapicerki bagażnika.</li>
+                            <li>Czyszczenie materiałowych elementów słupków.</li>
+                            <li>Czyszczenie pasów bezpieczeństwa.</li>
+                            <li>Pranie innych dostępnych elementów tekstylnych we wnętrzu.</li>
+                            <li>Czyszczenie plastików z pakietu brązowego.</li>
+                            <li>Płukanie i odciąganie pozostałości środków czyszczących.</li>
+                            <li>Końcowa kontrola czystości.</li>
+                        </ul>
+                        <p class="packages__text"><b>Co wyróżnia ten pakiet?</b> W przeciwieństwie do prania samych
+                            foteli czyścimy całe dostępne tekstylne wnętrze pojazdu. Nie trzeba wybierać, czy wyprać
+                            podłogę, bagażnik czy podsufitkę — zakres obejmuje wszystkie dostępne elementy tekstylne.
+                            Podsufitka czyszczona jest delikatnie, z uwzględnieniem jej stanu i sposobu mocowania.</p>
+                        <p class="packages__note">W przypadku tapicerki skórzanej stosujemy odpowiednią metodę
+                            czyszczenia i pielęgnacji skóry.</p>
+                    </div>
+                </article>
 
-                    <button aria-label="Mycie ciśnieniowe" class="price__container-type-choice upholstery-price-btn"
-                        data-target="cisnienie-cennik">
-                        <span class="desktop">Mycie ciśnieniowe</span>
-                        <span class="tablet">Ciśnieniowe</span>
-                        <img src="../dist/img/mycie-cisnieniowe-ikona.png" alt="" class="icon">
-                    </button>
-                </div>
+                <article class="packages__card packages__card--platynowy">
+                    <header class="packages__head">
+                        <div>
+                            <h3 class="packages__name">Pakiet platynowy</h3>
+                            <p class="packages__tagline">Kompleksowy detailing wnętrza</p>
+                        </div>
+                        <p class="packages__price">800 zł</p>
+                    </header>
+                    <div class="packages__body">
+                        <p class="packages__lead">Najbardziej rozbudowana pielęgnacja wnętrza</p>
+                        <p class="packages__text">Usługa dla najbardziej wymagających klientów. Podczas pełnego detailingu
+                            dokładnie czyścimy każdy dostępny element samochodu, także miejsca pomijane przy standardowym
+                            sprzątaniu i praniu tapicerki — od kokpitu i schowków, przez prowadnice foteli, aż po trudno
+                            dostępne zakamarki.</p>
 
-                <!-- Cennik: Tapicerka meblowa -->
-                <div class="price__container-price upholstery-price-container" id="meble-cennik">
-                    <div class="price__box">
-                        <p class="price__box-item">Czyszczenie kanapy dwuosobowej</p>
-                        <p class="price__box-item">od 180zł</p>
-                    </div>
-                    <div class="price__box">
-                        <p class="price__box-item">Czyszczenie kanapy trzyosobowej</p>
-                        <p class="price__box-item">od 220zł</p>
-                    </div>
-                    <div class="price__box">
-                        <p class="price__box-item">Czyszczenie narożnika</p>
-                        <p class="price__box-item">od 250zł</p>
-                    </div>
-                    <div class="price__box">
-                        <p class="price__box-item">Czyszczenie fotela</p>
-                        <p class="price__box-item">od 60zł</p>
-                    </div>
-                    <div class="price__box">
-                        <p class="price__box-item">Czyszczenie krzesła</p>
-                        <p class="price__box-item">od 20zł</p>
-                    </div>
-                    <div class="price__box">
-                        <p class="price__box-item">Czyszczenie materaca jednoosobowego</p>
-                        <p class="price__box-item">od 150zł</p>
-                    </div>
-                    <div class="price__box">
-                        <p class="price__box-item">Czyszczenie materaca dwuosobowego</p>
-                        <p class="price__box-item">od 200zł</p>
-                    </div>
-                    <div class="price__box">
-                        <p class="price__box-item">Czyszczenie dywanów</p>
-                        <p class="price__box-item">od 18zł/m2</p>
-                    </div>
-                    <div class="price__box">
-                        <p class="price__box-item">Czyszczenie wykładziny</p>
-                        <p class="price__box-item">od 12zł/m2</p>
-                    </div>
+                        <div class="packages__groups">
+                            <div>
+                                <h4 class="packages__group-title">1. Przygotowanie i dokładne odkurzanie</h4>
+                                <ul>
+                                    <li>Dokładne odkurzanie całego wnętrza.</li>
+                                    <li>Odkurzanie bagażnika.</li>
+                                    <li>Przedmuchiwanie szczelin sprężonym powietrzem.</li>
+                                    <li>Odkurzanie trudno dostępnych miejsc.</li>
+                                    <li>Czyszczenie przestrzeni pod fotelami.</li>
+                                    <li>Czyszczenie przestrzeni pomiędzy elementami wnętrza.</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="packages__group-title">2. Detailing elementów plastikowych</h4>
+                                <ul>
+                                    <li>Dokładne czyszczenie deski rozdzielczej.</li>
+                                    <li>Czyszczenie konsoli środkowej.</li>
+                                    <li>Czyszczenie przycisków i przełączników.</li>
+                                    <li>Czyszczenie kratek nawiewów.</li>
+                                    <li>Czyszczenie plastikowych boczków drzwi.</li>
+                                    <li>Czyszczenie uchwytów na napoje.</li>
+                                    <li>Czyszczenie schowków i kieszeni drzwiowych.</li>
+                                    <li>Czyszczenie trudno dostępnych szczelin.</li>
+                                    <li>Czyszczenie plastikowych elementów bagażnika.</li>
+                                    <li>Zabezpieczenie tworzyw odpowiednim preparatem pielęgnacyjnym.</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="packages__group-title">3. Czyszczenie foteli i prowadnic</h4>
+                                <ul>
+                                    <li>Dokładne czyszczenie foteli.</li>
+                                    <li>Czyszczenie przestrzeni pomiędzy siedziskiem a oparciem.</li>
+                                    <li>Czyszczenie prowadnic foteli.</li>
+                                    <li>Czyszczenie trudno dostępnych miejsc pod fotelami.</li>
+                                    <li>Czyszczenie mocowań i elementów konstrukcyjnych dostępnych bez demontażu.</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="packages__group-title">4. Demontaż i trudno dostępne miejsca</h4>
+                                <ul>
+                                    <li>Demontaż przednich foteli, jeśli konstrukcja pojazdu na to pozwala.</li>
+                                    <li>Demontaż tylnej kanapy, jeśli jest to technicznie możliwe.</li>
+                                    <li>Dokładne czyszczenie powierzchni pod fotelami i tylną kanapą.</li>
+                                    <li>Czyszczenie trudno dostępnych zakamarków, wnęk i szczelin.</li>
+                                    <li>Czyszczenie elementów mocujących i dostępnych powierzchni konstrukcyjnych.</li>
+                                    <li>Ponowny montaż zdemontowanych elementów.</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="packages__group-title">5. Tekstylia i tapicerka</h4>
+                                <ul>
+                                    <li>Pranie przednich foteli i tylnej kanapy.</li>
+                                    <li>Pranie podsufitki i boczków drzwi.</li>
+                                    <li>Pranie podłogi, wykładziny i dywaników materiałowych.</li>
+                                    <li>Pranie tapicerki bagażnika.</li>
+                                    <li>Czyszczenie pasów bezpieczeństwa.</li>
+                                    <li>Czyszczenie materiałowych słupków.</li>
+                                    <li>Czyszczenie wszystkich dostępnych elementów tekstylnych.</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="packages__group-title">6. Pozostałe elementy wnętrza</h4>
+                                <ul>
+                                    <li>Czyszczenie schowków i kieszeni.</li>
+                                    <li>Czyszczenie wnęki koła zapasowego.</li>
+                                    <li>Czyszczenie uszczelek drzwiowych.</li>
+                                    <li>Czyszczenie progów wewnętrznych.</li>
+                                    <li>Czyszczenie osłon przeciwsłonecznych.</li>
+                                    <li>Czyszczenie elementów wykończeniowych.</li>
+                                    <li>Czyszczenie szyb od wewnątrz.</li>
+                                    <li>Końcowa kontrola jakości i przygotowanie wnętrza do odbioru.</li>
+                                </ul>
+                            </div>
+                        </div>
 
-                    <p class="price-info">Dojazd na terenie Wrocławia, <b>GRATIS</b>
-                    
-                    <br>
-                    A z kartą dużej rodziny <b>- 10%</b>  na wszystkie usługi.
-                    </p>
-                </div>
-
-                <!-- Cennik: Tapicerka samochodowa -->
-                <div class="price__container-price upholstery-price-container active" id="auto-cennik">
-                    <div class="price__box">
-                        <p class="price__box-item">Pranie tapicerki samochodowej</p>
-                        <p class="price__box-item">od 200zł</p>
+                        <p class="packages__text"><b>Co wyróżnia pakiet platynowy?</b> To usługa dla klientów, którzy chcą
+                            zadbać o samochód na najwyższym poziomie. Nie skupiamy się wyłącznie na widocznych
+                            powierzchniach. Czyścimy również trudno dostępne miejsca, prowadnice, schowki, wnęki i
+                            przestrzenie pod zdemontowanymi fotelami. Efektem jest maksymalnie odświeżone, czyste i
+                            zadbane wnętrze.</p>
+                        <p class="packages__note">W przypadku tapicerki skórzanej stosujemy odpowiednią metodę
+                            czyszczenia i pielęgnacji skóry.</p>
                     </div>
-                    <div class="price__box">
-                        <p class="price__box-item">Czyszczenie wnętrza samochodu</p>
-                        <p class="price__box-item">od 400zł</p>
-                    </div>
-                    <div class="price__box">
-                        <p class="price__box-item">Pranie auta pod sprzedaż</p>
-                        <p class="price__box-item">od 250zł</p>
-                    </div>
-                    <div class="price__box">
-                        <p class="price__box-item">Autodetailing wnętrza busa</p>
-                        <p class="price__box-item">od 450zł</p>
-                    </div>
-
-                    <p class="price-info">Dojazd na terenie Wrocławia, <b>GRATIS</b>
-                        <br>
-                          A z kartą dużej rodziny <b>- 10%</b>  na wszystkie usługi.</p>
-                </div>
-
-                <!-- Cennik: Usługi sprzątania -->
-                <div class="price__container-price upholstery-price-container" id="sprzatanie-cennik"
-                    style="display: none;">
-                    <div class="price__box">
-                        <p class="price__box-item">Sprzątanie mieszkań</p>
-                        <p class="price__box-item">od 199zł</p>
-                    </div>
-                    <div class="price__box">
-                        <p class="price__box-item">Sprzątanie domów</p>
-                        <p class="price__box-item">od 249zł</p>
-                    </div>
-                    <div class="price__box">
-                        <p class="price__box-item">Sprzątanie biur i lokali</p>
-                        <p class="price__box-item">od 4,50zł/m2</p>
-                    </div>
-                    <div class="price__box">
-                        <p class="price__box-item">Sprzątanie po remoncie</p>
-                        <p class="price__box-item">od 12zł/m2</p>
-                    </div>
-                    <div class="price__box">
-                        <p class="price__box-item">Sprzątanie po wynajmie (Airbnb)</p>
-                        <p class="price__box-item">od 249zł</p>
-                    </div>
-                    <div class="price__box">
-                        <p class="price__box-item">Sprzątanie po imprezach</p>
-                        <p class="price__box-item">od 300zł</p>
-                    </div>
-                    <div class="price__box">
-                        <p class="price__box-item">Sprzątanie abonamentowe</p>
-                        <p class="price__box-item">od 149zł/wizyta</p>
-                    </div>
-                    <div class="price__box">
-                        <p class="price__box-item">Mycie okien</p>
-                        <p class="price__box-item">od 20zł/skrzydło</p>
-                    </div>
-                    <div class="price__box">
-                        <p class="price__box-item">Czyszczenie parowe</p>
-                        <p class="price__box-item">od 180zł</p>
-                    </div>
-                    <div class="price__box">
-                        <p class="price__box-item">Mycie płytek i fug</p>
-                        <p class="price__box-item">od 18zł/m2</p>
-                    </div>
-                    <div class="price__box">
-                        <p class="price__box-item">Ozonowanie i usuwanie zapachów</p>
-                        <p class="price__box-item">od 150zł</p>
-                    </div>
-                    <div class="price__box">
-                        <p class="price__box-item">Dezynfekcja pomieszczeń</p>
-                        <p class="price__box-item">od 200zł</p>
-                    </div>
-
-                    <p class="price-info">Dojazd na terenie Wrocławia, <b>GRATIS</b>
-                    
-                    <br>
-                    A z kartą dużej rodziny <b>- 10%</b>  na wszystkie usługi.
-                    </p>
-                </div>
-
-                <!-- Cennik: Mycie ciśnieniowe -->
-                <div class="price__container-price upholstery-price-container" id="cisnienie-cennik"
-                    style="display: none;">
-                    <div class="price__box">
-                        <p class="price__box-item">Mycie kostki brukowej</p>
-                        <p class="price__box-item">od 10zł/m2</p>
-                    </div>
-                    <div class="price__box">
-                        <p class="price__box-item">Mycie elewacji</p>
-                        <p class="price__box-item">od 15zł/m2</p>
-                    </div>
-                    <div class="price__box">
-                        <p class="price__box-item">Mycie tarasów</p>
-                        <p class="price__box-item">od 12zł/m2</p>
-                    </div>
-                    <div class="price__box">
-                        <p class="price__box-item">Mycie balkonów</p>
-                        <p class="price__box-item">od 100zł</p>
-                    </div>
-
-                    <p class="price-info">Dojazd na terenie Wrocławia, <b>GRATIS</b>
-                    
-                    <br>
-                    A z kartą dużej rodziny <b>- 10%</b>  na wszystkie usługi.
-                    </p>
-                </div>
+                </article>
 
             </div>
-        </section>
 
+            <div class="packages__extras">
+                <h3>Usługi dodatkowe</h3>
+                <p class="packages__text">Do każdego pakietu można dobrać dodatkowe usługi, które jeszcze lepiej zadbają
+                    o wnętrze samochodu.</p>
+                <ul>
+                    <li><strong>Ozonowanie wnętrza</strong> — dodatkowy zabieg neutralizacji zapachów.</li>
+                    <li><strong>Usuwanie sierści zwierząt</strong> — dokładne usuwanie sierści z tapicerki i wykładzin.</li>
+                    <li><strong>Impregnacja tapicerki</strong> — zabezpieczenie materiału przed zabrudzeniami.</li>
+                    <li><strong>Czyszczenie i impregnacja skóry</strong> — dedykowana pielęgnacja tapicerki skórzanej.</li>
+                    <li><strong>Czyszczenie fotelika dziecięcego</strong> — czyszczenie tapicerki fotelika, jeśli pozwala na to jego konstrukcja.</li>
+                    <li><strong>Usuwanie trudnych zabrudzeń</strong> — indywidualnie wyceniane zabrudzenia specjalne.</li>
+                </ul>
+            </div>
+
+            <p class="packages__footnote">Dojazd na terenie Wrocławia, <b>GRATIS</b><br>
+                A z kartą dużej rodziny <b>- 10%</b> na wszystkie usługi.</p>
+        </section>
 
 
         <section class="reviews" id="opinie">
