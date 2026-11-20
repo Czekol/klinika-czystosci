@@ -1,0 +1,21 @@
+RewriteEngine On
+
+# Przekierowuje HTTP na HTTPS ORAZ www na non-www w jednym kroku.
+RewriteCond %{HTTP_HOST} ^www\.klinika-czystosci\.pl [NC,OR]
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://klinika-czystosci.pl/$1 [R=301,L]
+
+# Cleanup index.html
+RewriteRule ^index\.html$ / [NC,R=301,L]
+
+# Przekierowanie 301 z krótkiego adresu Dzierżoniowa na konkretną usługę (idealne na banery i wizytówki)
+RewriteRule ^dzierzoniow/?$ /dzierzoniow/pranie-tapicerki-meblowej [R=301,L]
+
+# Zewnętrzne przekierowanie 301: usuwa .html z widocznego adresu w przeglądarce
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^(.+)\.html$ /$1 [R=301,L]
+
+# Wewnętrzne ładowanie: przypisuje czysty link do fizycznego pliku .html na serwerze
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [L]

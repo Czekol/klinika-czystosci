@@ -1,0 +1,35 @@
+.privacy-policy {
+	padding-inline: 3rem;
+	max-width: 1200px;
+	margin-inline: auto;
+	margin-bottom: 7.5rem;
+
+	.section-heading {
+		margin-top: 7.1rem;
+	}
+
+	&__container {
+		display: flex;
+		flex-direction: column;
+		gap: 2.5rem;
+
+		.privacy-policy__box {
+			&-heading {
+				margin-bottom: 0.7rem;
+				font-size: 1.9rem;
+			}
+
+			&-text {
+				margin-bottom: 1rem;
+				line-height: 21px;
+			}
+
+			ul {
+				list-style: circle inside;
+				li {
+					margin-bottom: 0.5rem;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,82 @@
+.car-subpage {
+	.header {
+		background-image: url('../../dist/img/samochodowa-hero-mobile.jpg');
+	}
+
+	.furniture {
+		.furniture__desc-box-img {
+			// &.car-img-hero-section {
+			// 	object-position: top 10% center;
+
+			// }
+		}
+
+		&__services-container {
+			.furniture__services-box {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+
+			.furniture__services-box-heading {
+				&.car-heading {
+					width: min-content;
+				}
+
+				&.first {
+					min-width: 199px;
+				}
+				&.second {
+					min-width: 316px;
+				}
+				&.third {
+					min-width: 286px;
+				}
+				&.fourth {
+					min-width: 230px;
+				}
+			}
+
+			.test-box {
+				display: flex; /* lub inline-flex, jeśli to przycisk */
+				align-items: center; /* wyrównuje ikonę do środka wysokości tekstu */
+				justify-content: flex-start; /* pilnuje, by elementy były obok siebie od lewej */
+				gap: 8px; /* tutaj sterujesz dokładną odległością między tekstem a ikoną */
+			}
+
+			.car-upholstery {
+				height: 44px;
+			}
+
+			.car-inside {
+				height: 40px;
+			}
+
+			.preparing-car-to-sell {
+				height: 45px;
+			}
+
+			.autodetailing-inside-bus {
+				height: 29px;
+			}
+		}
+	}
+
+	@media (width >= 744px) {
+		.header {
+			background-image: url('../../dist/img/tapicerka-samochodowa-desktop.jpg');
+		}
+	}
+
+	@media (width >= 1440px) {
+		.header {
+			&__heading {
+				max-width: 1158px;
+			}
+
+			&__text {
+				max-width: 1128px;
+			}
+		}
+	}
+}

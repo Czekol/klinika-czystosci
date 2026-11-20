@@ -1,0 +1,65 @@
+.dzierzoniow-furniture {
+	.header {
+		background-image: url('../../dist/img/dzierzoniow-pranie-tapicerki-hero-mobile.jpeg');
+
+		&__box {
+			&-text {
+				&.car-text {
+					max-width: 385px;
+				}
+			}
+		}
+	}
+
+	.furniture {
+		.furniture__desc-box-img {
+			object-position: 25% 45% !important;
+		}
+
+		.image-before {
+			object-position: 25% 57% !important;
+		}
+
+		.ba-slider__image-after {
+			object-position: 25% 45% !important;
+		}
+	}
+
+	.special {
+		&__container {
+			.special__box {
+				&-text {
+					max-width: 280px;
+				}
+
+				&:nth-of-type(2) {
+					.special__box-text {
+						max-width: 280px;
+					}
+				}
+
+				&:nth-of-type(3) {
+					.special__box-text {
+						max-width: 280px;
+					}
+				}
+
+				// .middle {
+				//     max-width: 280px !important;
+
+				// }
+				// .last {
+				//     max-width: 280px !important;
+				// }
+			}
+		}
+	}
+
+	.cta {
+		&__btn-box {
+			&-text {
+				max-width: 320px !important;
+			}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+.cleaning-pressurewashing-subpage {
+	.header {
+		background-image: url('../../dist/img/hero-mobile-sprzatanie.jpg');
+	}
+
+	@media (width >= 744px) {
+		.header {
+			background-image: url('../../dist/img/hero-desktop-sprzatanie.jpg');
+		}
+	}
+}

@@ -1,0 +1,935 @@
+@media (width >= 1440px) {
+	html {
+		scroll-padding-top: 9.9rem;
+	}
+
+	body {
+		font-size: 1.9rem;
+		overflow-x: hidden;
+	}
+
+	.nav {
+		display: flex;
+		justify-content: center;
+		padding-inline: 6rem;
+		padding-block: 1.3rem;
+		// width: 100%;
+
+		&__container {
+			max-width: 1200px;
+			width: 100%;
+
+			.nav__links-desktop {
+				display: flex;
+				gap: 5.5rem;
+
+				&-link {
+					font-size: 2rem;
+					color: #fff;
+					display: flex;
+					align-items: center;
+					gap: 0.6rem;
+
+					img {
+						width: 18.75px;
+					}
+				}
+			}
+		}
+
+		&__logo {
+			&-img {
+				height: 73px;
+			}
+		}
+
+		.nav-right-box {
+			display: none;
+		}
+	}
+
+	.header {
+		margin-top: 9.9rem;
+		padding-block: 9rem 11rem;
+		text-align: center;
+		// align-items: stretch;
+
+		&__heading {
+			margin-bottom: 1.5rem;
+			max-width: 1050px;
+			font-size: 5.5rem;
+			line-height: 78px;
+		}
+
+		&__text {
+			max-width: 1050px;
+			font-size: 2.1rem;
+			line-height: 32px;
+		}
+
+		&__select-box {
+			display: flex;
+			gap: 12rem;
+		}
+
+		&__container-box {
+			margin-top: 6.5rem;
+
+			.header__box {
+				&-img {
+					width: 95px;
+				}
+
+				&-text {
+					padding-block: 2rem 3.5rem;
+					max-width: 452px;
+					line-height: 27px;
+
+					&.car-text {
+						max-width: 438px;
+					}
+				}
+
+				&-btn {
+					padding: 1.8rem 3.6rem;
+					border-radius: 8px;
+					font-size: 1.9rem;
+				}
+			}
+		}
+	}
+
+	.main {
+		.section-heading {
+			padding-block: 14rem 11.5rem;
+			font-size: 4.3rem;
+		}
+
+		.furniture {
+			margin-inline: auto;
+			max-width: 1200px;
+			&__desc-box {
+				flex-direction: row;
+				gap: 8rem;
+
+				&-img {
+					width: 560px;
+					height: 353px;
+					border-radius: 8px;
+				}
+
+				&-box {
+					padding-inline: 0rem;
+					max-width: 561px;
+					text-align: left;
+
+					&-text {
+						line-height: 28px;
+					}
+				}
+			}
+
+			&__bottom-container {
+				position: relative;
+				flex-direction: row;
+				align-items: flex-start;
+				justify-content: space-between;
+				margin-top: 7.5rem;
+				text-align: left;
+
+				.ba-slider {
+					position: sticky;
+					top: 16.5rem;
+					margin-block: 0;
+					height: 353px;
+					width: 560px;
+					border-radius: 8px;
+
+					.ba-slider__handle {
+						.ba-slider__handle-circle {
+							width: 47px;
+							height: 47px;
+
+							img {
+								width: 30px;
+							}
+						}
+					}
+				}
+
+				.furniture__services-container {
+					order: -7;
+					gap: 5.6rem;
+					padding-inline: 0rem;
+					max-width: 561px;
+
+					.furniture__services-box {
+						align-items: baseline;
+						//!
+						&-heading {
+							gap: 1.2rem;
+							justify-content: start;
+							margin-bottom: 1.5rem;
+							font-size: 3.2rem;
+
+							&.car-heading {
+								width: min-content;
+							}
+
+							&.first {
+								min-width: fit-content;
+							}
+							&.second {
+								min-width: 400px;
+							}
+							&.third {
+								min-width: 361px;
+							}
+							&.fourth {
+								min-width: 530px;
+							}
+
+							&-icon {
+								&.couch {
+									height: 40px;
+								}
+
+								&.carpet {
+									width: 52px;
+								}
+
+								&.mattress {
+									height: 47px;
+								}
+
+								&.corner {
+									height: 51px;
+								}
+
+								&.chair {
+									height: 52px;
+								}
+
+								&.other-couch {
+									height: 40px;
+								}
+
+								&.covering {
+									width: 51px;
+								}
+
+								&.armchair {
+									height: 50px;
+								}
+
+								&.sofa {
+									height: 40px;
+								}
+
+								&.window {
+									height: 50px;
+								}
+							}
+						}
+
+						.car-upholstery {
+							height: 50px;
+						}
+
+						.car-inside {
+							height: 48px;
+						}
+
+						.preparing-car-to-sell {
+							height: 54px;
+						}
+
+						.autodetailing-inside-bus {
+							height: 34px;
+						}
+
+						&-text {
+							line-height: 28px;
+						}
+					}
+				}
+			}
+		}
+
+		.about {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 14rem;
+			padding-bottom: 10.5rem;
+
+			.section-heading {
+				padding-top: 8.9rem;
+			}
+
+			&__container {
+				justify-content: space-between;
+				flex-direction: row;
+				padding-inline: 0rem;
+				max-width: 1200px;
+				width: 100%;
+
+				&-img {
+					margin-inline: 0;
+					margin-bottom: 0rem;
+					max-width: 475px;
+					width: 100%;
+					height: 655px;
+				}
+
+				&-text-box {
+					max-width: 635px;
+					width: 100%;
+				}
+			}
+		}
+
+		.special {
+			&__container {
+				justify-content: space-between;
+				margin-inline: auto;
+				max-width: 1200px;
+				padding-inline: 0rem;
+
+				.special__box {
+					&:nth-of-type(2) {
+						.special__box-text {
+							max-width: 329px;
+						}
+					}
+
+					&-img {
+						&.chemicals-icon {
+							height: 72px;
+						}
+
+						&.bus-icon {
+							height: 39px;
+						}
+
+						&.experience-icon {
+							height: 64px;
+						}
+					}
+
+					&-heading {
+						margin-block: 1.4rem;
+						font-size: 3.2rem;
+					}
+
+					&-text {
+						max-width: 353px;
+						line-height: 28px;
+
+						&.medium {
+							max-width: 338px !important;
+						}
+					}
+				}
+			}
+		}
+
+		.cta {
+			margin-top: 14rem;
+			padding-bottom: 10.5rem;
+
+			.section-heading {
+				padding-top: 8.9rem;
+			}
+
+			&__background-icon {
+				&.stars-icon {
+					top: 130px;
+					left: -3px;
+					height: 689px;
+				}
+
+				&.drops-icon {
+					bottom: 106px;
+					right: -2px;
+					height: 669px;
+				}
+			}
+
+			.cta-container {
+				flex-direction: row;
+				justify-content: space-between;
+				max-width: 1200px;
+				width: 100%;
+
+				.cta__box {
+					gap: 2.5rem;
+					width: 304px;
+					height: 208px;
+
+					&:nth-child(2) {
+						&::before,
+						&::after {
+							height: 144px;
+							rotate: 90deg;
+							// transform: translateX(50%);
+						}
+
+						&::before {
+							top: 34px;
+							left: -74px;
+						}
+
+						&::after {
+							bottom: 34px;
+							left: 374px;
+						}
+					}
+
+					&-number {
+						width: 60px;
+						height: 60px;
+						font-size: 2.4rem;
+					}
+
+					&-heading {
+						max-width: 152px;
+						font-size: 2.5rem;
+					}
+				}
+			}
+
+			&__btn-box {
+				flex-direction: column;
+				gap: 1.6rem;
+
+				&-btn {
+					font-size: 2.4rem;
+
+					&-icon {
+						width: 22.75px;
+					}
+				}
+
+				&-text {
+					text-align: center;
+					max-width: 360px;
+					font-size: 2rem;
+				}
+			}
+		}
+
+		.price {
+			padding-inline: 0rem;
+			max-width: 1200px;
+
+			.main-container {
+				.price-info {
+					margin-inline: auto;
+					max-width: 740px;
+					line-height: 28px;
+				}
+
+				.price__container-type {
+					&-choice {
+						padding-block: 1.1rem;
+						padding-inline: 2.95rem;
+						width: fit-content;
+
+						span {
+							// padding-right: 0.9rem;
+							font-size: 2rem;
+
+							&.tablet {
+								display: none;
+							}
+
+							&.desktop {
+								display: block;
+							}
+						}
+
+						.icon {
+							height: 22px;
+						}
+					}
+				}
+
+				.price__container-price {
+					.price__box {
+						padding: 2.3rem 3rem;
+
+						&:nth-child(1) {
+							border-style: solid;
+							border-color: #e3e6ea;
+							border-width: 1px 1px 0 1px;
+						}
+
+						&-item {
+							font-size: 2rem;
+						}
+					}
+				}
+			}
+		}
+
+		.reviews {
+			padding: 8.9rem 0 10.5rem;
+
+			.section-heading {
+				margin-bottom: 8.9rem;
+			}
+
+			.test-section {
+				position: relative;
+				max-width: 1200px;
+				width: 100%;
+				margin-inline: auto;
+			}
+			&__wrapper {
+				position: relative;
+				gap: 11.2rem;
+				z-index: 1;
+			}
+
+			.reviews__nav {
+				position: absolute;
+				transform: translateY(-50%);
+				z-index: 3333;
+				background: transparent;
+				border: 0;
+				width: 40px;
+				height: 40px;
+				line-height: 40px;
+				text-align: center;
+				cursor: pointer;
+				color: #bfcde2; /* spójne z Twoją kolorystyką */
+				user-select: none;
+				display: block;
+				z-index: 10; /* było 3, podnieś na wszelki wypadek */
+				pointer-events: auto; /* upewnij się, że nie są wyłączone */
+
+				img {
+					width: 16px;
+					height: 16px;
+				}
+			}
+
+			.reviews__nav--prev {
+				top: 65px;
+				left: -15px;
+			}
+
+			.reviews__nav--next {
+				top: 45px;
+				right: -14px;
+				transform: scaleX(-1);
+			}
+
+			&__container {
+				position: relative;
+				z-index: 1;
+				max-width: 1053px;
+
+				// padding-inline: 13rem;
+				.reviews__box {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+
+					padding-left: 4rem;
+					// max-width: 560px;
+
+					&-text {
+						max-width: 430px;
+					}
+
+					&.desktop-review {
+						display: flex;
+					}
+
+					.test {
+						&::before {
+							left: -39px;
+							top: -19px;
+							font-size: 7.5rem;
+						}
+					}
+
+					&-text {
+						max-height: 100px; // widoczna wysokość fragmentu
+						line-height: 26px;
+						margin-bottom: 1.2rem;
+
+						&::after {
+							height: 40px;
+						}
+					}
+
+					&-show-more {
+						font-size: 2rem;
+					}
+
+					.person-box {
+						margin-top: 3.5rem;
+					}
+
+					&-img {
+						width: 63px;
+						height: 63px;
+					}
+
+					&-name {
+						font-size: 2rem;
+					}
+				}
+
+				// --- KROPKI ---
+				.reviews__dot-box {
+					margin-top: 6.5rem;
+
+					&-dot {
+						box-sizing: border-box;
+					}
+				}
+			}
+
+			.reviews__container .reviews__wrapper .reviews__box {
+				// min-width: 50%;
+				// była 100% – teraz dwie karty w jednym widoku
+				// max-width: 550px;
+
+				min-width: fit-content;
+			}
+		}
+
+		.reviews {
+			.test-section {
+				position: relative;
+				z-index: 2;
+			}
+			.reviews__container {
+				position: relative;
+				z-index: 1;
+			}
+			.reviews__nav {
+				z-index: 10;
+				pointer-events: auto;
+			}
+		}
+
+		.faq {
+			max-width: 949px;
+
+			.main-container {
+				padding-inline: 0;
+			}
+
+			&__box {
+				cursor: pointer;
+				padding: 2.1rem;
+
+				&-icon {
+					width: 21px;
+				}
+
+				&-heading {
+					font-size: 2.1rem;
+					line-height: normal;
+				}
+
+				&-text {
+					padding: 0 2.1rem 2.1rem 2.1em;
+					font-size: 1.6rem;
+					line-height: 24px;
+
+					p {
+						padding-bottom: 1rem;
+					}
+				}
+			}
+		}
+
+		.contact {
+			.main-container {
+				display: flex;
+				justify-content: space-between;
+				// gap: 4.25rem;
+				max-width: 1200px;
+				margin-inline: auto;
+
+				.contact__form-container {
+					order: 2;
+					padding-inline: 0rem;
+					margin-inline: 0;
+					max-width: 581px;
+					width: 100%;
+
+					.name-phone-box {
+						margin-top: 6.2rem;
+						gap: 3rem;
+
+						.text {
+							font-size: 2rem;
+						}
+
+						input {
+							font-size: 1.9rem;
+						}
+					}
+
+					.textarea-box {
+						label {
+							font-size: 2rem;
+							margin-top: 3rem;
+						}
+
+						textarea {
+							height: 200px;
+							font-size: 1.9rem;
+						}
+					}
+
+					.checkbox-label {
+						font-size: 2rem;
+					}
+
+					.checkbox-container {
+						gap: 4rem;
+						margin-top: 1.4rem;
+
+						.checkbox-section-container {
+							// gap: 0.7rem;
+						}
+
+						.checkbox-box {
+							padding-bottom: 0.9rem;
+
+							label {
+								font-size: 1.8rem;
+							}
+
+							input {
+								height: 16px;
+								width: 16px;
+							}
+						}
+					}
+
+					.send-button {
+						padding: 2rem;
+						font-size: 2rem;
+					}
+				}
+			}
+		}
+	}
+
+	.footer {
+		&__top-container {
+			position: relative;
+			margin-top: 0;
+
+			&::before {
+				content: '';
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: -40vw;
+				width: 40vw;
+				// height: 550px;
+
+				background-color: #493304;
+			}
+
+			// margin-top: 00rem;
+			padding: 6rem 9.9rem 7rem 0;
+			border-top-right-radius: 170px;
+
+			.top-second-container {
+				gap: 5rem;
+
+				.write-to-us__box {
+					&-title {
+						font-size: 3.1rem;
+					}
+
+					&-text {
+						padding-top: 0.9rem;
+						font-size: 1.8rem;
+						line-height: 26px;
+					}
+				}
+
+				.top-box {
+					gap: 1.5rem;
+
+					.gmail-icon {
+						// margin-top: 0.3rem;
+						width: 28px;
+						height: 19.27px;
+						// height: 20px;
+					}
+
+					.location-icon {
+						// margin-top: 0.3rem;
+						width: 29px;
+						height: 29px;
+						// height: 24px;
+					}
+
+					.instagram-icon {
+						// margin-top: 0.3rem;
+						width: 23.75px;
+						height: 23.75px;
+					}
+
+					.top__box {
+						gap: 1rem;
+						&-title {
+							font-size: 2.6rem;
+						}
+					}
+				}
+			}
+
+			.social-media__box {
+				gap: 3rem;
+				margin-top: 7.2rem;
+
+				a {
+					width: 36px;
+				}
+
+				&-icon {
+					width: 36px;
+				}
+			}
+		}
+
+		&__bottom-container {
+			padding-block: 9.5rem;
+
+			&-logo {
+				width: 97px;
+			}
+
+			.footer-bottom__box {
+				gap: 2rem;
+				font-size: 2rem;
+
+				&-familycard {
+					width: 130px;
+					// border-radius: 8px;
+				}
+			}
+		}
+	}
+
+	.dzierzoniow-furniture {
+		.header {
+			&__heading {
+				max-width: 950px;
+			}
+
+			&__text {
+				max-width: 910px;
+			}
+
+			&__box {
+				&-text {
+					&.car-text {
+						max-width: 483px !important;
+					}
+				}
+			}
+		}
+
+		.about {
+			&__container {
+				&-img {
+					height: 625px;
+				}
+			}
+		}
+
+		.cta {
+			&__btn-box {
+				&-text {
+					max-width: 358px !important;
+				}
+			}
+		}
+	}
+
+	.dzierzoniow-car-upholstery {
+		.header {
+			&__heading {
+				max-width: 1213px;
+			}
+
+			&__text {
+				max-width: 1180px;
+			}
+		}
+
+		.furniture {
+			&__desc-box {
+				&-img {
+					height: 373px;
+				}
+			}
+		}
+
+		.special {
+			&__container {
+				.special__box {
+					&:nth-of-type(3) {
+						.special__box-text {
+							max-width: 340px !important;
+						}
+					}
+				}
+			}
+		}
+
+		.cta {
+			&__btn-box {
+				&-text {
+					max-width: 358px !important;
+				}
+			}
+		}
+	}
+
+	.privacy-policy {
+		padding-inline: 0rem;
+		margin-bottom: 14rem;
+
+		.section-heading {
+			margin-top: 10rem;
+		}
+
+		&__container {
+			gap: 3.5rem;
+
+			.privacy-policy__box {
+				&-heading {
+					margin-bottom: 1rem;
+					font-size: 2.5rem;
+				}
+
+				&-text {
+					margin-bottom: 1.3rem;
+					line-height: 28px;
+				}
+
+				ul {
+					li {
+						margin-bottom: 0.9rem;
+					}
+				}
+			}
+		}
+	}
+}

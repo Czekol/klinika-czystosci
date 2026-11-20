@@ -1,0 +1,811 @@
+@media (width >= 744px) {
+	html {
+		scroll-padding-top: 8.2rem;
+	}
+
+	body {
+		font-size: 1.8rem;
+	}
+
+	.nav {
+		padding-inline: 6rem;
+		padding-block: 1.1rem;
+
+		&__logo {
+			&-img {
+				height: 60px;
+			}
+		}
+
+		&__links {
+			top: 82px;
+
+			gap: 5.3rem;
+			padding-top: 13rem;
+			width: 371px;
+
+			&-link {
+				gap: 1.1rem;
+				margin-left: 6.5rem;
+				font-size: 2.5rem;
+
+				img {
+					width: 37px;
+				}
+			}
+		}
+
+		&__hamburger {
+			&-img {
+				width: 42px;
+			}
+		}
+
+		&__shadow {
+			top: 82px;
+		}
+	}
+
+	.header {
+		background-image: url('../../../dist/img/pranie-kanapy-bg-desktop.jpg');
+		background-position: top 15% center;
+
+		margin-top: 8.2rem;
+		padding-block: 6.7rem 8.5rem;
+
+		&__heading {
+			margin-bottom: 1.2rem;
+			font-size: 4.4rem;
+			line-height: 63px;
+		}
+
+		&__text {
+			line-height: 28px;
+		}
+
+		&__container-box {
+			margin-top: 6rem;
+
+			.header__box {
+				&-img {
+					width: 88px;
+				}
+
+				&-text {
+					padding-block: 1.8rem 3rem;
+					max-width: 428px;
+					line-height: 27px;
+
+					&.car-text {
+						max-width: 415px;
+					}
+				}
+
+				&-btn {
+					padding: 1.7rem 3.4rem;
+					border-radius: 8px;
+					font-size: 1.8rem;
+				}
+			}
+		}
+	}
+
+	.main {
+		.section-heading {
+			padding-block: 10rem 7.5rem;
+			font-size: 3.8rem;
+			line-height: normal;
+		}
+
+		.furniture {
+			&__desc-box {
+				align-items: center;
+				gap: 5rem;
+
+				&-img {
+					width: 493px;
+					height: 300px;
+					border-radius: 8px;
+				}
+
+				&-box {
+					padding-inline: 6rem;
+					max-width: 990px;
+					&-text {
+						padding-bottom: 1.7rem;
+						line-height: 27px;
+					}
+				}
+			}
+
+			&__bottom-container {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+
+				.ba-slider {
+					margin-block: 7.5rem 5rem;
+					height: 300px;
+					width: 493px;
+					border-radius: 8px;
+
+					.ba-slider__handle {
+						.ba-slider__handle-circle {
+							width: 45px;
+							height: 45px;
+
+							img {
+								width: 27px;
+							}
+						}
+					}
+				}
+
+				.furniture__services-container {
+					gap: 5rem;
+					padding-inline: 6rem;
+					max-width: 990px;
+
+					.furniture__services-box {
+						&-heading {
+							gap: 1.1rem;
+							margin-bottom: 1.1rem;
+							font-size: 3rem;
+
+							&.car-heading {
+								width: fit-content;
+							}
+
+							&-icon {
+								&.couch {
+									height: 37px;
+								}
+
+								&.carpet {
+									width: 48px;
+								}
+
+								&.mattress {
+									height: 44px;
+								}
+
+								&.corner {
+									height: 48px;
+								}
+
+								&.other-couch {
+									height: 37px;
+								}
+
+								&.chair {
+									height: 49px;
+								}
+
+								&.covering {
+									width: 48px;
+								}
+
+								&.armchair {
+									height: 48px;
+								}
+
+								&.sofa {
+									height: 37px;
+								}
+
+								&.window {
+									height: 47px;
+								}
+							}
+						}
+
+						.car-upholstery {
+							height: 47px;
+						}
+
+						.car-inside {
+							height: 43px;
+						}
+
+						.preparing-car-to-sell {
+							height: 48px;
+						}
+
+						.autodetailing-inside-bus {
+							height: 31px;
+						}
+
+						&-text {
+							line-height: 27px;
+						}
+					}
+				}
+			}
+		}
+
+		.about {
+			margin-top: 10rem;
+			padding-bottom: 9rem;
+
+			.section-heading {
+				padding-top: 7.9rem;
+			}
+
+			&__container {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				padding-inline: 6rem;
+
+				&-img {
+					margin-bottom: 5rem;
+					max-width: 390px;
+					height: 575px;
+					border-radius: 8px;
+				}
+
+				&-text-box {
+					max-width: 870px;
+					gap: 1.7rem;
+					line-height: 27px;
+				}
+			}
+		}
+
+		.special {
+			&__container {
+				flex-direction: row;
+				align-items: flex-end;
+				justify-content: center;
+				flex-wrap: wrap;
+				gap: 7.5rem;
+
+				.special__box {
+					&:nth-of-type(2) {
+						.special__box-text {
+							max-width: 319px;
+						}
+					}
+					&:nth-of-type(3) {
+						.special__box-text {
+							max-width: 319px;
+						}
+					}
+
+					&-img {
+						&.chemicals-icon {
+							height: 65px;
+						}
+
+						&.bus-icon {
+							height: 38px;
+						}
+
+						&.experience-icon {
+							height: 59px;
+						}
+					}
+
+					&-heading {
+						margin-block: 1.3rem;
+						font-size: 3rem;
+					}
+
+					&-text {
+						max-width: 329px;
+						line-height: 27px;
+					}
+				}
+			}
+		}
+
+		.cta {
+			margin-top: 10rem;
+			padding-bottom: 9rem;
+
+			.section-heading {
+				padding-top: 7.9rem;
+			}
+
+			&__background-icon {
+				&.stars-icon {
+					top: 286px;
+					left: -133px;
+					height: 527px;
+				}
+
+				&.drops-icon {
+					bottom: 176px;
+					right: -182px;
+					height: 580px;
+				}
+			}
+
+			.cta-container {
+				gap: 11.5rem;
+
+				.cta__box {
+					gap: 2.3rem;
+					width: 298px;
+					height: 199px;
+
+					&:nth-child(2) {
+						&::before,
+						&::after {
+							width: 4px;
+							height: 115px;
+						}
+
+						&::before {
+							top: -115px;
+						}
+
+						&::after {
+							bottom: -115px;
+						}
+					}
+
+					&-number {
+						width: 58px;
+						height: 58px;
+						font-size: 2.3rem;
+					}
+
+					&-heading {
+						max-width: 152px;
+						font-size: 2.4rem;
+					}
+				}
+			}
+
+			&__btn-box {
+				flex-direction: row;
+				gap: 3rem;
+				margin-top: 9rem;
+
+				&-btn {
+					padding: 1.7rem 3.4rem;
+					font-size: 2.3rem;
+
+					&-icon {
+						width: 21.75px;
+					}
+				}
+
+				&-text {
+					text-align: left;
+					max-width: 299px;
+					font-size: 1.9rem;
+				}
+			}
+		}
+
+		.price {
+			margin-inline: auto;
+			padding-inline: 6rem;
+			max-width: 990px;
+
+			.main-container {
+				.price-info {
+					margin-top: 3rem;
+					line-height: 27px;
+				}
+
+				.price__container-type {
+					&-choice {
+						padding-block: 1rem;
+
+						// &:nth-child(1) {
+						//  border-top-left-radius: 9px;
+						// }
+
+						span {
+							padding-right: 0.9rem;
+							font-size: 1.9rem;
+							font-weight: bold;
+							color: #fff;
+							pointer-events: none;
+
+							&.tablet {
+								display: none; /* ZMIANA: ukrywamy tekst, zostają same ikony */
+							}
+						}
+
+						.icon {
+							height: 21px;
+
+							&.car-icon {
+								height: 20px;
+							}
+						}
+					}
+				}
+
+				.price__container-price {
+					.price__box {
+						padding: 2.2rem 2.5rem;
+
+						&-item {
+							font-size: 1.9rem;
+						}
+					}
+				}
+			}
+		}
+
+		.reviews {
+			margin-top: 10rem;
+			padding: 8rem 6rem 8rem 6rem;
+
+			.section-heading {
+				padding-bottom: 6.5rem;
+			}
+
+			&__container {
+				.reviews__box {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					padding-left: 3.3rem; // miejsce na cudzysłów
+
+					// DEKORACYJNY CUDZYSŁÓW (nie wychodzi poza box)
+
+					.test {
+						&::before {
+							left: -40px;
+							top: -16px;
+							font-size: 7.5rem;
+						}
+					}
+
+					&-text {
+						max-height: 105px; // widoczna wysokość fragmentu
+						line-height: 27px;
+						margin-bottom: 1rem;
+						max-width: 457px;
+					}
+
+					&-show-more {
+						font-size: 1.9rem;
+						line-height: 26px;
+					}
+
+					.person-box {
+						align-self: flex-start;
+						gap: 1.5rem;
+						margin-top: 2.5rem;
+					}
+
+					&-img {
+						width: 62px;
+						height: 62px;
+					}
+
+					&-name {
+						font-size: 1.9rem;
+					}
+				}
+
+				// --- KROPKI ---
+				.reviews__dot-box {
+					margin-top: 5rem;
+					gap: 1.8rem;
+
+					&-dot {
+						width: 7px;
+						height: 7px;
+					}
+				}
+			}
+		}
+
+		.faq {
+			margin-inline: auto;
+			max-width: 990px;
+
+			.main-container {
+				gap: 2.1rem;
+				padding-inline: 6rem;
+			}
+
+			&__box {
+				padding: 1.9rem;
+
+				&-icon {
+					width: 19px;
+				}
+
+				&-heading {
+					font-size: 1.9rem;
+					line-height: 27px;
+				}
+
+				&-text {
+					padding: 0 1.9rem 1.9rem 1.9rem;
+					font-size: 1.5rem;
+					line-height: 23px;
+
+					p {
+						padding-bottom: 0.9rem;
+					}
+				}
+			}
+		}
+
+		.contact {
+			&__form-container {
+				margin-inline: auto;
+				padding-inline: 6rem;
+				max-width: 990px;
+
+				.name-phone-box {
+					flex-direction: row;
+					gap: 2.5rem;
+
+					.text {
+						width: 50%;
+						font-size: 1.9rem;
+					}
+
+					.name {
+					}
+
+					.phone {
+					}
+
+					input {
+						margin-top: 0.8rem;
+						padding: 1.7rem 1.9rem;
+						font-size: 1.8rem;
+					}
+				}
+
+				.textarea-box {
+					label {
+						margin-top: 3rem;
+						font-size: 1.9rem;
+					}
+
+					textarea {
+						margin-block: 0.8rem 4.4rem;
+						padding: 1.7rem 1.9rem;
+						font-size: 1.8rem;
+					}
+				}
+
+				.checkbox-label {
+					font-size: 1.9rem;
+				}
+
+				.checkbox-container {
+					gap: 3.5rem;
+					margin-top: 1.4rem;
+
+					.checkbox-section-container {
+						// gap: 0.6rem;
+					}
+
+					.checkbox-box {
+						gap: 0.8rem;
+						padding-bottom: 0.8rem;
+
+						input {
+							height: 16px;
+							width: 16px;
+							border-radius: 2px;
+						}
+
+						label {
+							font-size: 1.7rem;
+						}
+					}
+				}
+
+				.send-button {
+					margin-top: 3.6rem;
+					// inny margin top niz checkboxy ktore maja 3.5rem, bo checkbox ma padding bottom by latwiej bylo kliknac
+					padding: 2rem;
+					font-size: 1.9rem;
+				}
+			}
+		}
+	}
+
+	.footer {
+		&__top-container {
+			margin-top: 10rem;
+			padding: 4.2rem 6rem 5.3rem;
+
+			.top-second-container {
+				gap: 4rem;
+
+				.write-to-us__box {
+					max-width: 399px;
+
+					&-title {
+						font-size: 3rem;
+					}
+
+					&-text {
+						padding-top: 0.8rem;
+						font-size: 1.7rem;
+						line-height: normal;
+					}
+				}
+
+				.top-box {
+					gap: 1.3rem;
+
+					.gmail-icon {
+						margin-top: 0.7rem;
+						width: 27px;
+						height: 19.28px;
+					}
+
+					.location-icon {
+						margin-top: 0.3rem;
+						width: 27px;
+						height: 27px;
+					}
+
+					.instagram-icon {
+						margin-top: 0.5rem;
+
+						width: 21.75px;
+						height: 21.75px;
+					}
+
+					.top__box {
+						gap: 0.7rem;
+
+						&-title {
+							font-size: 2.5rem;
+						}
+					}
+				}
+			}
+
+			.social-media__box {
+				margin-top: 6rem;
+
+				a {
+					max-height: 34px;
+				}
+
+				&-icon {
+					width: 34px;
+				}
+			}
+		}
+
+		&__bottom-container {
+			flex-direction: row;
+			padding-block: 8.5rem;
+			gap: 1.7rem;
+
+			&-logo {
+				margin-bottom: 0rem;
+				width: 92px;
+
+				&.mobile-logo {
+					display: none;
+				}
+				&.tablet-desktop-logo {
+					display: block;
+				}
+			}
+
+			.footer-bottom__box {
+				flex-direction: row;
+				gap: 1.7rem;
+				font-size: 1.9rem;
+
+				&-familycard {
+					width: 120px;
+					// border-radius: 8px;
+				}
+			}
+		}
+	}
+
+	.dzierzoniow-furniture {
+		.header {
+			background-image: url('../../../dist/img/desktop-pranie-tapicerki.jpeg');
+
+			&__heading {
+				max-width: 750px;
+			}
+
+			&__text {
+				max-width: 750px;
+			}
+		}
+
+		.special {
+			&__container {
+				.special__box {
+					&-text {
+						max-width: 350px !important;
+					}
+
+					.middle {
+						max-width: 350px !important;
+					}
+					.last {
+						max-width: 340px !important;
+					}
+				}
+			}
+		}
+
+		.cta {
+			&__btn-box {
+				&-text {
+					max-width: 338px !important;
+				}
+			}
+		}
+	}
+
+	.dzierzoniow-car-upholstery {
+		.header {
+			background-image: url('../../../dist/img/hero-dekstop-pranie-tapicerki-samochodowej.jpg');
+			&__heading {
+				max-width: 673px;
+			}
+		}
+
+		.special {
+			&__container {
+				.special__box {
+					&-text {
+						max-width: 336px !important;
+					}
+				}
+			}
+		}
+
+		.cta {
+			.cta__box-heading {
+				max-width: 166px !important;
+			}
+		}
+
+		.faq {
+			.main-container {
+				max-width: fit-content;
+			}
+		}
+	}
+
+	.privacy-policy {
+		padding-inline: 6rem;
+		margin-bottom: 10rem;
+
+		.section-heading {
+			margin-top: 8.2rem;
+		}
+
+		&__container {
+			gap: 3rem;
+
+			.privacy-policy__box {
+				&-heading {
+					margin-bottom: 0.9rem;
+					font-size: 2.2rem;
+				}
+
+				&-text {
+					margin-bottom: 1.2rem;
+					line-height: 25px;
+				}
+
+				ul {
+					li {
+						margin-bottom: 0.7rem;
+					}
+				}
+			}
+		}
+	}
+}

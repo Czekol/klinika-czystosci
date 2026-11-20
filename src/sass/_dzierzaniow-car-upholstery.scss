@@ -1,0 +1,53 @@
+.dzierzoniow-car-upholstery {
+	.header {
+		background-image: url('../../dist/img/mobile-hero-pranie-tapicerki-samochodowej-dzierzoniow.jpg');
+
+		&__heading {
+			max-width: 613px;
+		}
+	}
+
+	.main {
+		.furniture {
+			&__desc-box {
+				&-img {
+					object-position: top;
+				}
+			}
+		}
+
+		.special {
+			&__container {
+				.special__box {
+					&-text {
+						max-width: 280px;
+					}
+
+					&:nth-of-type(2) {
+						.special__box-text {
+							max-width: 280px;
+						}
+					}
+
+					&:nth-of-type(3) {
+						.special__box-text {
+							max-width: 280px;
+						}
+					}
+				}
+			}
+		}
+
+		.cta {
+			.cta__box-heading {
+				max-width: 126px;
+			}
+
+			&__btn-box {
+				&-text {
+					max-width: 300px;
+				}
+			}
+		}
+	}
+}
